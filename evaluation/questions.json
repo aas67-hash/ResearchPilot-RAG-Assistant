@@ -1,0 +1,42 @@
+[
+  {
+    "id": "q1",
+    "question": "How does the Transformer architecture draw global dependencies between input and output without recurrence?",
+    "relevant_papers": ["attention_mechanism.pdf"],
+    "expected_pages": [1],
+    "answerable": true,
+    "expected_behavior": "answer_with_citations"
+  },
+  {
+    "id": "q2",
+    "question": "How is the output vector computed in scaled dot-product attention?",
+    "relevant_papers": ["attention_mechanism.pdf"],
+    "expected_pages": [1],
+    "answerable": true,
+    "expected_behavior": "answer_with_citations"
+  },
+  {
+    "id": "q3",
+    "question": "What is the primary objective in reinforcement learning?",
+    "relevant_papers": ["reinforcement_learning.pdf"],
+    "expected_pages": [1],
+    "answerable": true,
+    "expected_behavior": "answer_with_citations"
+  },
+  {
+    "id": "q4",
+    "question": "How do actions in reinforcement learning affect immediate versus subsequent rewards?",
+    "relevant_papers": ["reinforcement_learning.pdf"],
+    "expected_pages": [1],
+    "answerable": true,
+    "expected_behavior": "answer_with_citations"
+  },
+  {
+    "id": "q5_unanswerable",
+    "question": "What are the specific AdamW hyperparameter learning rates and weight decays used in GPT-4 training?",
+    "relevant_papers": [],
+    "expected_pages": [],
+    "answerable": false,
+    "expected_behavior": "abstain"
+  }
+]

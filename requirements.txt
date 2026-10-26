@@ -1,0 +1,7 @@
+pymupdf
+sentence-transformers
+qdrant-client
+rank-bm25
+streamlit
+pytest
+ollama

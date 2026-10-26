@@ -1,0 +1,71 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets & Environment variables
+.env
+.env.local
+.env*.local
+
+# Qdrant local storage & local vector DBs
+qdrant_storage/
+test/
+*.db
+.lock
+meta.json
+
+# PDF documents & raw research papers
+*.pdf
+sample_documents/*.pdf
+uploaded_documents/
+
+# Evaluation outputs (keep directory structure via .gitkeep)
+evaluation/results/*.json
+evaluation/results/*.csv
+!evaluation/results/.gitkeep
+!sample_documents/.gitkeep
+
+# Model caches & weights
+models/
+.cache/
+huggingface/
+
+# Node / Expo artifacts (workspace legacy)
+.expo/
+dist/
+web-build/
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+.DS_Store
+Thumbs.db
+# Local environment and secrets
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editor settings
+.vscode/
+
+# Uploaded files and local databases
+uploaded_documents/
+qdrant_storage/
+node_modules/
