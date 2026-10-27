@@ -69,3 +69,6 @@ Thumbs.db
 uploaded_documents/
 qdrant_storage/
 node_modules/
+# Ignore files belonging to other projects
+PRODUCT_SPEC.md
+product_spec.md
